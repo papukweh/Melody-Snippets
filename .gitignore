@@ -22,3 +22,6 @@ instance/
 MuseScore.AppImage
 tests/*
 user_files/*
+
+# Node
+node_modules/
