@@ -8,8 +8,6 @@ setup-backend:
 	chmod +x backend/MuseScore.AppImage
 
 start-backend:
-	conda init
-	conda activate MelodySnippets
 	( cd backend/; flask run --host=0.0.0.0)
 
 setup-frontend:

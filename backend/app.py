@@ -1,6 +1,6 @@
 from subprocess import run
 from flask import Flask, request, send_file
-from audio_to_midi import audio_to_midi_melodia as audio2midi
+from audio_to_midi import audio_to_midi_crepe as audio2midi
 from io import BytesIO
 from flask_cors import CORS
 
@@ -21,7 +21,7 @@ def convert():
   
   # Converts to MIDI
   midi_path = path+'.mid'
-  converted = audio2midi(path, midi_path, smooth=0.25, minduration=0.05)
+  converted = audio2midi(path, midi_path, smooth=0.25, minduration=0.1)
 
   # Converts to PDF
   pdf_path = path+'.pdf'
