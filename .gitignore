@@ -20,8 +20,8 @@ instance/
 
 # Project specific
 MuseScore.AppImage
-tests/*
-user_files/*
+tests/
+user_files/
 
 # Node
 node_modules/
