@@ -8,7 +8,7 @@ This projects uses two approaches for tackling this problem:
 2. The machine learning approach, using the pre-trained network [CREPE: A Convolutional REpresentation for Pitch Estimation](https://github.com/marl/crepe). It can be installed with pip like a normal package.
 
 Other softwares:
-- [MusesScore](https://musescore.org/en) is used to render the sheet music based on the MIDI file.
+- [MuseScore](https://musescore.org/en) is used to render the sheet music based on the MIDI file.
 - [Librosa](https://librosa.org/doc/latest/index.html) is used to load the audio, get BPM information and removing silent parts.
 
 ### Backend
@@ -77,7 +77,9 @@ You can then access your app on `localhost:3000`
 
 #### Screenshots
 
-WIP
+![Processing](./imgs/front1.png)
+
+![Results](./imgs/front2.png)
 
 ### References
 ```
