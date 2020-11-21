@@ -2,8 +2,10 @@ from subprocess import run
 from flask import Flask, request, send_file
 from audio_to_midi import audio_to_midi_melodia as audio2midi
 from io import BytesIO
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def main_page():  
