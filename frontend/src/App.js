@@ -55,11 +55,11 @@ export default function App () {
       form.append('file', file)
       setProcessing(true)
       const filename = v4()
-      axios.post(`http://localhost:5000/convert?filename=${filename}`, form, headers)
+      axios.post(`http://18.230.199.14:5000/convert?filename=${filename}`, form, headers)
         .then((res) => {
           const blob = new Blob([res.data], { type: 'application/pdf' })
           setScore(URL.createObjectURL(blob))
-          axios.get(`http://localhost:5000/get_midi/${filename}`, headers)
+          axios.get(`http://18.230.199.14:5000/get_midi/${filename}`, headers)
             .then((res) => {
               const blob = new Blob([res.data], { type: 'audio/midi' })
               setMidi(URL.createObjectURL(blob))
