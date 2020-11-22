@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Melody-Snippets/static/css/main.2149768b.chunk.css",
+    "main.js": "/Melody-Snippets/static/js/main.7c5f18b8.chunk.js",
+    "main.js.map": "/Melody-Snippets/static/js/main.7c5f18b8.chunk.js.map",
+    "runtime-main.js": "/Melody-Snippets/static/js/runtime-main.50615952.js",
+    "runtime-main.js.map": "/Melody-Snippets/static/js/runtime-main.50615952.js.map",
+    "static/js/2.46e3693e.chunk.js": "/Melody-Snippets/static/js/2.46e3693e.chunk.js",
+    "static/js/2.46e3693e.chunk.js.map": "/Melody-Snippets/static/js/2.46e3693e.chunk.js.map",
+    "index.html": "/Melody-Snippets/index.html",
+    "static/css/main.2149768b.chunk.css.map": "/Melody-Snippets/static/css/main.2149768b.chunk.css.map",
+    "static/js/2.46e3693e.chunk.js.LICENSE.txt": "/Melody-Snippets/static/js/2.46e3693e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50615952.js",
+    "static/js/2.46e3693e.chunk.js",
+    "static/css/main.2149768b.chunk.css",
+    "static/js/main.7c5f18b8.chunk.js"
+  ]
+}
