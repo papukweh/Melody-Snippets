@@ -34,6 +34,8 @@ make start-backend
 
 #### API Reference
 
+The API has a version currently deployed on: https://api.melody-snippets.de/
+
 `POST /convert`
 Form data:
 ```python
